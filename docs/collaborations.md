@@ -27,3 +27,5 @@ After you sent some merge requests and we asses you are working properly in the 
 
 You can also share your videos! a few examples here:
 https://www.youtube.com/watch?v=kHBcVlqpvZ8&list=PLp5v7U2tXHs3BYfe93GZwuUZLGsisapic&
+
+Can you make your SpotMicro dance?
