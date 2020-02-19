@@ -16,4 +16,10 @@ Next branch contains the next public webstie, this is were the changes are made.
 
 Once next branch changes are made we just do the merge to the master branch.
 
+```
+git checkout master
+git merge next
+git push
+```
+
 If you are new to the community you can send merge request to the next branch, or if you are already a trusted developer in the community you can update the next branch yourself.
