@@ -6,12 +6,12 @@ This is a open project, any person can join and collaborate.
 
 Talk to us!, join the conversations in the following channels
 
-Slack: https://spotmicroai-inviter.herokuapp.com/
-Forum: http://spotmicroai.org/
+* Slack: [](https://spotmicroai-inviter.herokuapp.com/)
+* Forum: [](http://spotmicroai.org/)
 
 ### Repositories
 
-The repositories are located at: https://gitlab.com/custom_robots/spotmicroai
+The repositories are located at: [](https://gitlab.com/custom_robots/spotmicroai)
 
 ### How to send changes
 
@@ -26,6 +26,6 @@ After you sent some merge requests and we asses you are working properly in the 
 ### Still curious?
 
 You can also share your videos! a few examples here:
-https://www.youtube.com/watch?v=kHBcVlqpvZ8&list=PLp5v7U2tXHs3BYfe93GZwuUZLGsisapic&
+[](https://www.youtube.com/watch?v=kHBcVlqpvZ8&list=PLp5v7U2tXHs3BYfe93GZwuUZLGsisapic&)
 
 Can you make your SpotMicro dance?
