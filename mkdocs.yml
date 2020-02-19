@@ -1,6 +1,7 @@
 site_name: SpotMicroAI
 nav:
     - Home: index.md
+    - Collaborations: collaborations.md
     - Build a SpotMicro: 
         - Collect All The Things!: gettingStarted.md
         - Assembly: assembly.md
