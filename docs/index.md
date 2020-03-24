@@ -15,8 +15,9 @@ This is a reasonably priced quadruped.
 
 Before you start you need to decide if you want to have:
 
-* A fully simulated quadruped robot (pyBullet / ROS), **[Simulation build](https://gitlab.com/custom_robots/spotmicroai/simulation)**, this page contains the information to drive you through it.
-* A simple quadruped robot controlled with remote bluetooth controller (PS4 or XBOX for example), **[Basic build](https://gitlab.com/custom_robots/spotmicroai/basic)**, the repository will guide you.
+* A fully simulated quadruped robot (pyBullet / ROS), **[repository for the simulation build](https://gitlab.com/custom_robots/spotmicroai/simulation)**, here in this page that you are reading, contains the information to drive you through it.
+
+* A simple quadruped robot controlled with remote bluetooth controller (PS4 or XBOX for example), **[repository for the basic build](https://gitlab.com/custom_robots/spotmicroai/basic)**, the repository have all the information to guide you.
 
 ![SpotMicroAI](assets/SpotMicroAI_complete_1.jpg)
 > Lidar build by @FlorianWilk
@@ -26,16 +27,19 @@ Before you start you need to decide if you want to have:
 
 ## Where to start
 
-You have all the repositories in GitLab
+You have all the repositories in GitLab:
+
 * [SpotMicroAI](https://gitlab.com/custom_robots/spotmicroai)
+
 * [Slack](https://spotmicroai-inviter.herokuapp.com/)
 
 ## 3d Prints
 
 * All [3D print models](https://gitlab.com/custom_robots/spotmicroai/3dprint) are available in the repo
- * Because the performance issues with Thingiverse site, we have saved some users parts there (with the source links, honoring the licenses and referencing the users)
+  * Because the performance issues with Thingiverse site, we have saved some users parts there (with the source links, honoring the licenses and referencing the users)
 
 * Original and CLS STLs: [https://www.thingiverse.com/thing:3445283](https://www.thingiverse.com/thing:3445283) 
+
 * Hobbyking MG996R and STEP files: [https://www.thingiverse.com/thing:3761340](https://www.thingiverse.com/thing:3761340)
 
 # Contributing 
