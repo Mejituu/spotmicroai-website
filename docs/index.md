@@ -35,8 +35,9 @@ You have all the repositories in GitLab:
 
 ## 3d Prints
 
-* All [3D print models](https://gitlab.com/custom_robots/spotmicroai/3dprint) are available in the repo
-  * Because the performance issues with Thingiverse site, we have saved some users parts there (with the source links, honoring the licenses and referencing the users)
+* All [3D print models](https://gitlab.com/custom_robots/spotmicroai/3dprint) are available in the repo. Because the performance issues with Thingiverse site, we have saved some users parts there (with the source links, honoring the licenses and referencing the users)
+
+* Some collection of [SpotMicroAI builds](https://www.thingiverse.com/groups/spotmicro/things) builds in Thingiverse
 
 * Original and CLS STLs: [https://www.thingiverse.com/thing:3445283](https://www.thingiverse.com/thing:3445283) 
 
