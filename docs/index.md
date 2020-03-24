@@ -1,42 +1,50 @@
 ![SpotMicroAI](assets/logo.png)
 
-# The Story
-The SpotMicro model was originally developed by KDY and released on thingiverse. He has posted that he is required to join the military in his country for two years and so will be absent from development. Hopefully by the time he returns to the community we'll have a fully functional bot that he can come back to.
+# SpotMicroAI
+
+## The Story
+The SpotMicro model was originally developed by **[Deok-yeon Kim](https://www.thingiverse.com/KDY0523/about)** and released on [Thingiverse](https://www.thingiverse.com/thing:3445283). He has posted that he is required to join the military in his country for two years and so will be absent from development.
+
+## The Community
+The community has grown since then and different builds are available for everyone.
+
+If you are eager to build your own, you can start joining us in slack: [spotmicroai-inviter.herokuapp.com/](https://spotmicroai-inviter.herokuapp.com/)
+
+Message Board: [http://spotmicro.org](http://spotmicro.org)
+
+We are very active in Slack.
+
+## The Build
+This is a reasonably priced quadruped. Before you start you need to decide if you want to have
+* A fully simulated quadruped robot (pyBullet / ROS)
 
 ![SpotMicroAI](assets/SpotMicroAI_complete_1.jpg)
+> @FlorianWilk build
 
-# Current State
-The rest of us are eager to get our hands on a reasonably priced quadruped and so have continued development in his absence. Development happens at the following locations:
+* A simple quadruped robot controlled with remote bluetooth controller (PS4 or XBOX for example) 
 
-- Talk to us on Slack [spotmicroai-inviter.herokuapp.com/](https://spotmicroai-inviter.herokuapp.com/)
-- Codebase: [github.com/FlorianWilk/SpotMicroAI](https://github.com/FlorianWilk/SpotMicroAI)
-- Documentation: [spotmicroai.readthedocs.io](https://spotmicroai.readthedocs.io)
-- STL and STEP Files: 
-    - Original and CLS STLs: [https://www.thingiverse.com/thing:3445283](https://www.thingiverse.com/thing:3445283) 
-    - Hobbyking MG996R and STEP files: [https://www.thingiverse.com/thing:3761340](https://www.thingiverse.com/thing:3761340)
-- Message Board: [http://spotmicro.org](http://spotmicro.org)
+![Remote contolled](assets/Knosterpitter.jpg)
+> @Knosterpitter build
 
-# Contributing and TODO:
-This project is still very much in its infancy and so any contributions are very much appreciated. Key problems that still need to be addressed are: 
 
-Hardware-Todos:
+You have the repositories in GitLab: [SpotMicroAI](https://gitlab.com/custom_robots/spotmicroai)
 
- - the whole Servo-Setup. MG996R not powerfull enough. try the CLS6336HV Servos. PCA might make the Servos jitter.
- - use an additional VoltageRegulator 7,4->5V for the Jetson Nano
- - build a PowerPack ? x 18650 7,4V ? - not sure if i really should build a PowerPack :) Need help here! 
- - build a nice Adapter-Cable to solve issues with cable-length of all 12 Servos. 
- 
-Software-Todos / Ideas:
- 
- - Documentation and First Build tutorial
- - write a basic RL-based Implementation to support example_automaticgait.py with a "BodyBalancer". ActionSpace is x,y,z of the Body, ObservationSpace pitch,roll,ground_distance,kinematic_motion_function_index
- - create a ROS-Sim-Adapter to map the joint_states to the leg_topic 
- - create an Implementation for the Jetson/RealWorldBot which handles leg_topics -> Servos (incl. calibration)
- - write a Controller-Node, which uses the Kinematics/RL-Model to control the Bot via the leg_topics. This Controller-Node will just be a wrapper for the same logic we use for the PyBullet-Simulation. 
- - Finish the OpenAI-Gym-Env? or
- - try to adapt the "Neural Network Walker"-Example from Bullet to SpotMicroAI? not sure..
- - understand the Marc H. Raibert's Balancing Controller from 1984/86 to possibly merge this ideas into the Action/Observation-Space. Does this make sense?
+* [Basic build](https://gitlab.com/custom_robots/spotmicroai/basic)
+* [Simulation build](https://gitlab.com/custom_robots/spotmicroai/simulation)
 
+## 3d Prints
+
+* [3D print models](https://gitlab.com/custom_robots/spotmicroai/3dprint)
+** Because the performance issues with Thingiverse site, we have saved some users parts there (with the source links, honoring the licenses and referencing the users)
+
+* Original and CLS STLs: [https://www.thingiverse.com/thing:3445283](https://www.thingiverse.com/thing:3445283) 
+* Hobbyking MG996R and STEP files: [https://www.thingiverse.com/thing:3761340](https://www.thingiverse.com/thing:3761340)
+
+# Contributing 
+
+Everyone is welcome to join and collaborate
+
+Please refer to our collaborations section to know more: [Collaboration](https://spotmicroai.readthedocs.io/en/latest/collaborations/)
 
 # License
 KDY released this under the [Creative Commons Attribution](http://creativecommons.org/licenses/by/3.0/) license.
