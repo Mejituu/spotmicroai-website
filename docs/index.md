@@ -8,34 +8,32 @@ The SpotMicro model was originally developed by **[Deok-yeon Kim](https://www.th
 ## The Community
 The community has grown since then and different builds are available for everyone.
 
-If you are eager to build your own, you can start joining us in slack: [spotmicroai-inviter.herokuapp.com/](https://spotmicroai-inviter.herokuapp.com/)
-
-Message Board: [http://spotmicro.org](http://spotmicro.org)
-
-We are very active in Slack.
+If you are eager to build your own, you can start joining us in slack: [spotmicroai-inviter.herokuapp.com/](https://spotmicroai-inviter.herokuapp.com/), we are very active in Slack. Or you can join the message board: [http://spotmicro.org](http://spotmicro.org)
 
 ## The Build
-This is a reasonably priced quadruped. Before you start you need to decide if you want to have
-* A fully simulated quadruped robot (pyBullet / ROS)
+This is a reasonably priced quadruped.
+
+Before you start you need to decide if you want to have:
+
+* A fully simulated quadruped robot (pyBullet / ROS), **[Simulation build](https://gitlab.com/custom_robots/spotmicroai/simulation)**, this page contains the information to drive you through it.
+* A simple quadruped robot controlled with remote bluetooth controller (PS4 or XBOX for example), **[Basic build](https://gitlab.com/custom_robots/spotmicroai/basic)**, the repository will guide you.
 
 ![SpotMicroAI](assets/SpotMicroAI_complete_1.jpg)
-> @FlorianWilk build
-
-* A simple quadruped robot controlled with remote bluetooth controller (PS4 or XBOX for example) 
+> Lidar build by @FlorianWilk
 
 ![Remote contolled](assets/Knosterpitter.jpg)
-> @Knosterpitter build
+> Remote controlled with ARM by @Knosterpitter
 
+## Where to start
 
-You have the repositories in GitLab: [SpotMicroAI](https://gitlab.com/custom_robots/spotmicroai)
-
-* [Basic build](https://gitlab.com/custom_robots/spotmicroai/basic)
-* [Simulation build](https://gitlab.com/custom_robots/spotmicroai/simulation)
+You have all the repositories in GitLab
+* [SpotMicroAI](https://gitlab.com/custom_robots/spotmicroai)
+* [Slack](https://spotmicroai-inviter.herokuapp.com/)
 
 ## 3d Prints
 
-* [3D print models](https://gitlab.com/custom_robots/spotmicroai/3dprint)
-** Because the performance issues with Thingiverse site, we have saved some users parts there (with the source links, honoring the licenses and referencing the users)
+* All [3D print models](https://gitlab.com/custom_robots/spotmicroai/3dprint) are available in the repo
+ * Because the performance issues with Thingiverse site, we have saved some users parts there (with the source links, honoring the licenses and referencing the users)
 
 * Original and CLS STLs: [https://www.thingiverse.com/thing:3445283](https://www.thingiverse.com/thing:3445283) 
 * Hobbyking MG996R and STEP files: [https://www.thingiverse.com/thing:3761340](https://www.thingiverse.com/thing:3761340)
