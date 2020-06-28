@@ -1,9 +1,6 @@
 ## Simulation
 
-Masses and Inertias of the URDF-Model are still not correct.
-
-There is also a Blender-File included which i used to create the STLs for the simulation. 
-Of course you could also do some nice renderings with it! :)
+This section contains information on the most up-to-date simulation solutions.
 
 ### Quickstart PyBullet
 
