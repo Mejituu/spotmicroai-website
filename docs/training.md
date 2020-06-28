@@ -1,6 +1,45 @@
-## Training
+## Reinforcement Learning Environment
 
-There is no real Training-Code yet.
-We need an environment which allows fast multiagent learning. A C++/Bullet-Implementation might be a good solution. 
-We are also currently evaluating Unity as an Enviroment, but tbh i prefer to have a clean and tight C++ implementation instead of Mono/C#. On the other hand Unity would allow us to have far more realistic (virtual) VideoInputs for CV-Training. Not sure about this, would be great to have feedback here from you guys.
-I also started to create a simple OpenAI-Gym-Environment, but have not finished it yet :/ 
+We now have a [Reinforcement Learning Environment](https://github.com/moribots/spot_mini_mini) which uses Pybullet and OpenAI Gym! It contains a variety of optional terrains, which can be activated using **heightfield=True** in the environment class constructor.
+
+You can choose a PNG-generated terrain:
+
+![PyBullet](assets/spot_png_terrain.png)
+
+Or, for more control, you can choose a programmatically generated heightfield:
+
+![PyBullet](assets/spot_prog_terrain.png)
+
+If you try to launch the vanilla gait on fairly difficult terrain, Spot will fall very quickly:
+
+![PyBullet](assets/spot_rough_falls.gif)
+
+
+By training an Augmented Random Search agent, this can be overcome:
+
+![PyBullet](assets/spot_rough_ARS.gif)
+
+
+If you are new to RL, I recommend you try a simpler example. Notice that if we choose non-ideal parameters for the generated gait, the robot drifts over time with a forward command:
+
+![PyBullet](assets/spot_drift.gif)
+
+You should try to train a policy which outputs a yaw command to eliminate the robot's drift, like this:
+
+![PyBullet](assets/spot_no_drift.gif)
+
+
+### Quickstart Reinforcement Learning
+
+```
+pip3 install numpy
+pip3 install pybullet
+pip3 install gym
+
+git checkout spot_forward
+
+cd spot_bullet/src
+
+./spot_ars_eval.py
+
+enter trained policy number: (e.g 149)

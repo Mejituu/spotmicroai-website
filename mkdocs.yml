@@ -6,8 +6,8 @@ nav:
         - Collect All The Things!: gettingStarted.md
         - Assembly: assembly.md
     - Simulation: simulation.md
+    - Reinforcement Learning: training.md
     - Kinematics: kinematic.md
-    - Training: training.md
     - About: 
       - Credits: credits.md
       - Original Description: originalReadme.md
