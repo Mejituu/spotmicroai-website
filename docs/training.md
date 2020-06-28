@@ -2,14 +2,6 @@
 
 We now have a [Reinforcement Learning Environment](https://github.com/moribots/spot_mini_mini) which uses Pybullet and OpenAI Gym! It contains a variety of optional terrains, which can be activated using **heightfield=True** in the environment class constructor.
 
-You can choose a PNG-generated terrain:
-
-![PyBullet](assets/spot_png_terrain.png)
-
-Or, for more control, you can choose a programmatically generated heightfield:
-
-![PyBullet](assets/spot_prog_terrain.png)
-
 If you try to launch the vanilla gait on fairly difficult terrain, Spot will fall very quickly:
 
 ![PyBullet](assets/spot_rough_falls.gif)
@@ -28,6 +20,17 @@ You should try to train a policy which outputs a yaw command to eliminate the ro
 
 ![PyBullet](assets/spot_no_drift.gif)
 
+You can choose a PNG-generated terrain:
+
+![PyBullet](assets/spot_png_terrain.png)
+
+Or, for more control, you can choose a programmatically generated heightfield:
+
+![PyBullet](assets/spot_prog_terrain.png)
+
+Notice that when the simulation resets, the terrain changes. What you cannot see is that the robot's link masses and frictions also change under the hood:
+
+![PyBullet](assets/spot_random_terrain.gif)
 
 ### Quickstart Reinforcement Learning
 
@@ -43,3 +46,4 @@ cd spot_bullet/src
 ./spot_ars_eval.py
 
 enter trained policy number: (e.g 149)
+```
