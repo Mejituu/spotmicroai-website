@@ -28,7 +28,7 @@ Or, for more control, you can choose a programmatically generated heightfield:
 
 ![PyBullet](assets/spot_prog_terrain.png)
 
-Notice that when the simulation resets, the terrain changes. What you cannot see is that the robot's link masses and frictions also change under the hood:
+Notice that when the simulation resets, the terrain changes. What you cannot see is that the robot's link masses and frictions also change under the hood for added training robustness:
 
 ![PyBullet](assets/spot_random_terrain.gif)
 
