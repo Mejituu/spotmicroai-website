@@ -19,27 +19,15 @@ cd spot_bullet/src
 ./env_tester.py
 ```
 
+If you decide to use a controller, you can achieve some fairly fluid motions!
 
-### Quickstart Reinforcement Learning
+Changing Step Length:
 
-I trained an ARS RL agent to help Spot walk over rough terrain:
+![PyBullet](assets/steplen_mod.gif)
 
-![PyBullet](assets/spot_rough_ARS.gif)
+Yaw in Place:
 
-This example can be found in the [Repository](https://github.com/moribots/spot_mini_mini).
-```
-pip3 install numpy
-pip3 install pybullet
-pip3 install gym
-
-git checkout spot_forward
-
-cd spot_bullet/src
-
-./spot_ars_eval.py
-
-enter trained policy number: (e.g 149)
-```
+![PyBullet](assets/yaw_in_place.gif)
 
 ### Quickstart for ROS
 
