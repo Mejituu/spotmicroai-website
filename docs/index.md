@@ -45,7 +45,7 @@ You have all the repositories in GitLab:
 
 ## Simulation & Software
 
-There is currently a working **Bezier Gait Environment** with Randomizable Body and Terrain Parameters in **Pybullet**. It has a variety of trained **Reinforcement Learning** Agents for gait correction and rough terrain traveral, as well as a **ROS** interface to operate the robot using a Joystick. You can access it **[here](https://github.com/moribots/spot_mini_mini)**
+There is currently a working **Bezier Gait Environment** with Randomizable Body and Terrain Parameters in **Pybullet**. It has a variety of trained **Reinforcement Learning** Agents for gait correction and rough terrain traveral, as well as a **ROS** interface to operate the robot using a Joystick. You can access it [here](https://github.com/moribots/spot_mini_mini).
 
 ![PyBullet](assets/spot-mini-mini.gif)
 
