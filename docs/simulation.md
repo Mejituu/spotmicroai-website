@@ -8,7 +8,7 @@ I have deployed a 12-point Bezier Curve gait to make Spot walk:
 
 ![PyBullet](assets/spot-mini-mini.gif)
 
-This example can be found in the [Repository](https://github.com/moribots/spot_mini_mini). You can optionally use a Game Pad:
+This example can be found in this [repository](https://github.com/moribots/spot_mini_mini). You can optionally use a Game Pad:
 ```
 pip3 install numpy
 pip3 install pybullet
@@ -59,7 +59,7 @@ This is what InverseKinematics does. We know all the constraints, the length of 
 
 You can find [some a first draft of the calculations here](https://github.com/FlorianWilk/SpotMicroAI/tree/master/Kinematics). There is also a [Jupyter Notebook explaining the Kinematics](https://github.com/FlorianWilk/SpotMicroAI/tree/master/Kinematics/Kinematic.ipynb) and a [YouTube-Video](https://www.youtube.com/watch?v=VSkqhFok17Q).
 
-In this [Repository](https://github.com/moribots/spot_mini_mini), there is a working IK solver for both Spot's legs and its body:
+In this [repository](https://github.com/moribots/spot_mini_mini), there is a working IK solver for both Spot's legs and its body:
 
 ![IK](assets/spot_rpy.gif)
 
