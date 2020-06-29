@@ -51,5 +51,5 @@ cd spot_bullet/src
 -hf, --HeightField  Use HeightField
 -r, --DebugRack     Put Spot on an Elevated Rack
 -p, --DebugPath     Draw Spot's Foot Path
--a, -
+-a, --AgentNum      Agent Number To Load
 ```
