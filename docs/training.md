@@ -39,11 +39,17 @@ pip3 install numpy
 pip3 install pybullet
 pip3 install gym
 
-git checkout spot_forward
-
 cd spot_bullet/src
 
 ./spot_ars_eval.py
+```
 
-enter trained policy number: (e.g 149)
+**Optional Arguments**
+
+```
+-h, --help          show this help message and exit
+-hf, --HeightField  Use HeightField
+-r, --DebugRack     Put Spot on an Elevated Rack
+-p, --DebugPath     Draw Spot's Foot Path
+-a, -
 ```

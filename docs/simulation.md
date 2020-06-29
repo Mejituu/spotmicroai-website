@@ -19,6 +19,16 @@ cd spot_bullet/src
 ./env_tester.py
 ```
 
+**Optional Arguments**
+
+```
+-h, --help          show this help message and exit
+-hf, --HeightField  Use HeightField
+-r, --DebugRack     Put Spot on an Elevated Rack
+-p, --DebugPath     Draw Spot's Foot Path
+-ay, --AutoYaw      Automatically Adjust Spot's Yaw
+```
+
 If you decide to use a controller, you can achieve some fairly fluid motions!
 
 Changing Step Length:
