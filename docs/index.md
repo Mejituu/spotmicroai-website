@@ -5,11 +5,6 @@
 ## The Story
 The SpotMicro model was originally developed by **[Deok-yeon Kim](https://www.thingiverse.com/KDY0523/about)** and released on [Thingiverse](https://www.thingiverse.com/thing:3445283). He has posted that he is required to join the military in his country for two years and so will be absent from development.
 
-## The Community
-The community has grown since then and different builds are available for everyone.
-
-If you are eager to build your own, you can start joining us in slack: [spotmicroai-inviter.herokuapp.com/](https://spotmicroai-inviter.herokuapp.com/), we are very active in Slack. Or you can join the message board: [http://spotmicro.org](http://spotmicro.org)
-
 ## The Build
 This is a reasonably priced quadruped.
 
@@ -25,13 +20,21 @@ Before you start you need to decide if you want to have:
 ![Remote contolled](assets/Knosterpitter.jpg)
 > Remote controlled with ARM by @Knosterpitter
 
-## Where to start
+## The Community
 
 You have all the repositories in GitLab:
 
 * [SpotMicroAI](https://gitlab.com/custom_robots/spotmicroai)
 
 * [Slack](https://spotmicroai-inviter.herokuapp.com/)
+
+* [Message Board](http://spotmicro.org)
+
+## Simulation & Software
+
+There is currently a working **Bezier Gait Environment** with Randomizable Body and Terrain Parameters in **Pybullet**. It has a variety of trained **Reinforcement Learning** Agents for gait correction and rough terrain traveral, as well as a **ROS** interface to operate the robot using a Joystick. You can access it [here](https://github.com/moribots/spot_mini_mini).
+
+![PyBullet](assets/spot-mini-mini.gif)
 
 ## 3d Prints
 
@@ -42,12 +45,6 @@ You have all the repositories in GitLab:
 * Original and CLS STLs: [https://www.thingiverse.com/thing:3445283](https://www.thingiverse.com/thing:3445283) 
 
 * Hobbyking MG996R and STEP files: [https://www.thingiverse.com/thing:3761340](https://www.thingiverse.com/thing:3761340)
-
-## Simulation & Software
-
-There is currently a working **Bezier Gait Environment** with Randomizable Body and Terrain Parameters in **Pybullet**. It has a variety of trained **Reinforcement Learning** Agents for gait correction and rough terrain traveral, as well as a **ROS** interface to operate the robot using a Joystick. You can access it [here](https://github.com/moribots/spot_mini_mini).
-
-![PyBullet](assets/spot-mini-mini.gif)
 
 # Contributing 
 
